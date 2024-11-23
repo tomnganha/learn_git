@@ -1,0 +1,2 @@
+git log : giup ta xem lại lịch sử commmit
+git show commit_id:Dùng để xem chi tiết một commit_id
