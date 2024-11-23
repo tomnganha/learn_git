@@ -1,2 +1,16 @@
 git log : giup ta xem lại lịch sử commmit
 git show commit_id:Dùng để xem chi tiết một commit_id
+git diff : để xem sự thay dổi một file sau khi ta chỉnh sửa nhưng file đó vẫn nằm trong khu vực Working directory
+gitk: để mở một cửa sổ dashboard lên để theo dõi trực quan hơn
+
+//câu lệnh hay Dùng
+git checkout -- ten_file: Bỏ đi những thay đổi của file, để file đó trở về như luc ban đầu.Áp dụng cho file đang ở vùng Working directory
+git reset HEAD ten_file hoặc git reset ten_file: Chuyển fiel đó từ vùng Staging area trở lại vùng Working area
+
+git reset --soft commit_id:
+    dùng để chuyển từ trạng thái đã commit về trạng thái trước lúc chạy lệnh commit
+    Tức là từ Reponsitory về lại Staging area. Trông đó commit_id là mã của nhánh mà ta muốn quay lại
+git reset --mixed commit_id: 
+    Dùng để chuyển từ trạng thái đã commit về trạng thái trước lúc chạy lệnh git add
+    Tức là chuyển từ Reponsitory về lại Working directory. Trong đó commit_id là mã của nhánh mà ta muốn quay lại
+git branch : để xem danh sách các nhánh
