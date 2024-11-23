@@ -22,3 +22,12 @@ git merge ten_nhanh: de merge nhánh <ten_nhanh> vào trong nhánh hiện tại
         git checkout A: chuyển sang nhánh add
         git merge B: để hợp nhất nhánh B vào nhánh add
 git branch -D ten_nhanh: Để xóa nhánh
+
+GITHUB
+ĐẨY CODE LÊN GITHUB CÁC LẦN TIẾP theo
+    git add
+    git commit -m "noi dung commit"
+    git push
+
+KÉO CODE TỪ GITHUB VỀ MÁY
+    git pull origin ten_nhanh
