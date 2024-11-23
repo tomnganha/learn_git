@@ -14,3 +14,10 @@ git reset --mixed commit_id:
     Dùng để chuyển từ trạng thái đã commit về trạng thái trước lúc chạy lệnh git add
     Tức là chuyển từ Reponsitory về lại Working directory. Trong đó commit_id là mã của nhánh mà ta muốn quay lại
 git branch : để xem danh sách các nhánh
+git checkout -b ten_nhanh: Tạo ra một nhánh mới và chuyển sang nhánh đó
+git checkout ten_nhanh: Chuyển sang nhánh khác
+
+git merge ten_nhanh: de merge nhánh <ten_nhanh> vào trong nhánh hiện tại
+    vd có hai nhánh A và B, giờ muốn hợp nhất hai nhánh A và B ta làm như sau
+        git checkout A: chuyển sang nhánh add
+        git merge B: để hợp nhất nhánh B vào nhánh add
